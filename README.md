@@ -27,6 +27,7 @@ python src/fetch.py                # fetch World Bank data
 python -m src.features             # tidy, aggregate, scale
 python -m src.cluster              # choose k, fit, save figures
 python -m src.report               # write reports/clusters_summary.md
+```
 ## Figures
 ![Elbow & Silhouette](reports/figures/01_elbow_silhouette.png)
 ![PCA Clusters](reports/figures/02_pca_clusters.png)
